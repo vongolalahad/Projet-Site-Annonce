@@ -1,0 +1,10 @@
+.idea
+
+*.png
+*.gif
+*.jpeg
+*.jpg
+*.bmp
+*.pct
+*.tif
+[T][t]humbs.db

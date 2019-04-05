@@ -1,0 +1,185 @@
+html{
+    background-color: #eeeeef;
+}
+body{
+    background-color: gainsboro;
+    width: 960px;
+    height: auto;
+    margin:auto;
+}
+header
+{
+    background-image: url("../images_tp/prepa1_baniere.png");
+    width: 960px;
+    height: 200px;
+    border-bottom: blue 2px inset;
+}
+li{
+    margin-top: 15px;
+    list-style-type: circle ;
+}
+a
+{
+    text-decoration: none;
+    color: blue;
+    font-size: large;
+}
+ul
+{
+    margin-top: 50px;
+}
+h1
+{
+    text-align: center;
+    font-family: serif;
+    font-size: x-large;
+}
+nav#horizontal
+{
+    width: 960px;
+    height: 40px;
+    margin:auto;
+    background-color: white;
+    border-bottom: blue 10px;
+}
+nav#horizontal ul
+{
+    list-style-type: none;
+    margin-top: 1px;
+    padding: 0;
+}
+nav#horizontal ul li
+{
+    display: inline;
+    margin-top: 10px;
+    border-bottom: inset blue 5px;
+}
+nav#horizontal ul li a
+{
+    display: table-cell;
+    width: 188px;
+    height: 40px;
+    background-color: lightgray;
+    color: black;
+    font-family: serif;
+    font-size: medium;
+    text-align: center;
+    border-right: solid dodgerblue 2px;
+    border-left: solid dodgerblue 2px;
+    line-height: 40px;
+    font-family: Arial, Verdana sans-serif;
+}
+nav#horizontal ul li a:hover
+{
+    background-color: blue;
+    color: #fff;
+}
+nav#horizontal ul li a.fond
+{
+    width: 190px;
+    height: 40px;
+    background-color: blue;
+    color: aliceblue;
+}
+div.titre{
+    background-color: dodgerblue;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+    margin: 0;
+}
+.center{
+    text-align: center;
+}
+input[type=text],input[type=email],input[type=password]{
+    width: 180px;
+    height: 20px;
+    background-color: antiquewhite;
+}
+#footer{
+    background-color: black;
+    border: white 2px solid;
+    width: 100%;
+}
+#footer th{
+    background-color: gray;
+}
+#footer a{
+    font-size: 15px;
+    font-style: normal;
+    color: white;
+}
+#filiere1{
+    background-color: antiquewhite;
+    width: 769px;
+}
+#connexion{
+    text-align: right;
+    background-color: lightsteelblue;
+    border-bottom: 3px solid blue;
+}
+.background_connection{
+    background-color: darkgray;
+}
+.bienvenue{
+    display: inline-block;
+}
+.deconnexion{
+    display: inline-block;
+    float: right;
+}
+.form_deconnexion{
+    background-color: lightsteelblue;
+}
+.photo_annonce{
+    width: 170px;
+    height: 170px;
+    background-color: crimson;
+    display: inline-block;
+}
+.titre_description_information_annonce{
+    width: 400px;
+    height: auto;
+    background-color: blueviolet;
+    display: inline-block;
+    vertical-align: top;
+}
+.information_annonce{
+    background-color: dodgerblue;
+    height: auto;
+    width: 390px;
+}
+aside{
+    display: inline-block;
+    vertical-align: top;
+}
+input[type=submit]{
+    background-color: blue;
+    color: white;
+    height: 25px;
+
+}
+input[type=text],input[type=password]{
+    height: 25px;
+}
+.marquee{
+    background-color: ivory;
+}
+.inscription{
+
+}
+td{
+    width: 370px;
+    height: 70px;
+}
+table input[type=text],input[type=email],input[type=password] {
+    width: 300px;
+    height: 30px;
+}
+input[value=Valider]{
+    height: 30px;
+    vertical-align: top;
+}
+table label{
+    vertical-align: top;
+}
